@@ -1,5 +1,38 @@
 # Changelog
 
+## [2026.4.20](https://github.com/jdx/mise/compare/v2026.4.19..v2026.4.20) - 2026-04-23
+
+### 🐛 Bug Fixes
+
+- **(config)** resolve relative path: tool versions against config root by @jdx in [#9320](https://github.com/jdx/mise/pull/9320)
+- **(lock)** resolve @latest and prune poisoned lockfile entries by @jdx in [#9321](https://github.com/jdx/mise/pull/9321)
+
+### 🚜 Refactor
+
+- **(aqua)** bake aqua registry from merged yaml by @risu729 in [#9043](https://github.com/jdx/mise/pull/9043)
+
+### 📦️ Dependency Updates
+
+- bump communique to 1.0.2 by @jdx in [#9313](https://github.com/jdx/mise/pull/9313)
+
+### Chore
+
+- **(ci)** remove cargo-vendor install from ppa publish by @jdx in [#9312](https://github.com/jdx/mise/pull/9312)
+- **(release)** publish snap to stable channel by @jdx in [#9318](https://github.com/jdx/mise/pull/9318)
+
+### 📦 Aqua Registry
+
+Updated [aqua-registry](https://github.com/aquaproj/aqua-registry): [v4.492.0](https://github.com/aquaproj/aqua-registry/releases/tag/v4.492.0) -> [v4.497.0](https://github.com/aquaproj/aqua-registry/releases/tag/v4.497.0).
+
+Included aqua-registry releases:
+
+- [v4.493.0](https://github.com/aquaproj/aqua-registry/releases/tag/v4.493.0)
+- [v4.494.0](https://github.com/aquaproj/aqua-registry/releases/tag/v4.494.0)
+- [v4.494.1](https://github.com/aquaproj/aqua-registry/releases/tag/v4.494.1)
+- [v4.495.0](https://github.com/aquaproj/aqua-registry/releases/tag/v4.495.0)
+- [v4.496.0](https://github.com/aquaproj/aqua-registry/releases/tag/v4.496.0)
+- [v4.497.0](https://github.com/aquaproj/aqua-registry/releases/tag/v4.497.0)
+
 ## [2026.4.19](https://github.com/jdx/mise/compare/v2026.4.18..v2026.4.19) - 2026-04-22
 
 ### 🚀 Features
